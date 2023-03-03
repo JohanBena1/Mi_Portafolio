@@ -68,6 +68,9 @@ html{
 #inicio .contenido header .contenido-header .redes a:hover {
     color: rgba(0, 142, 236, 0.815);
 }
+#inicio .contenido header .contenido-header .seleccionado {
+    color: rgba(0, 142, 236, 0.815);
+}
 #inicio .contenido .presentacion{
     max-width: 1100px;
     height: 100vh;
@@ -523,7 +526,7 @@ html{
         background-color: #081f47c5;
         
     }
-    #contacto .contenido-form .mitad .input-mitad{
+    #contacto .contenido-form .mitad input{
         width: 48%;
         color: #fff;
 
@@ -677,6 +680,38 @@ html{
         #sobremi .sobremi .titulo-seccion{
           text-align: center;
         }
+        #sobremi .sobremi h2 {
+          font-size: 25px;
+          text-align: center;
+        }
+        .contenedor-skills{
+          padding: 50px 30px;
+        }
+        #portfolio {
+          padding: 50px 0;
+        }
+        #portfolio .fila {
+          display: block;
+        }
+        #portfolio .fila .proyecto {
+          margin: 15px auto;
+        }
+
+        #contacto {
+          padding: 50px 15px;
+        }
+
+        #contacto .contenido-form .mitad {
+          margin-bottom: 15px;
+          display: block;
+        }
+        #contacto .contenido-form .mitad input {
+          width: 100%;
+          margin-bottom: 15px;
+        }
+
+
+
 
 
 
